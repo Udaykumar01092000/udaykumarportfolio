@@ -1,0 +1,258 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Movie Flex</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="assets/img/myprofile.jpg" rel="icon">
+  <link href="assets/img/myprofile.jpg" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/myprofile.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">Uday Kumar</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="https://www.linkedin.com/in/uday-kumar-0290711aa/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.facebook.com/murarishettyudaykumar" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.instagram.com/uday_kumar2345/" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Movie Flex</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Movie Flex</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="images/movie1.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="images/movie2.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="images/movie3.png" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Web Devolopment</li>
+                <li><strong>Project</strong>: Movie Flex</li>
+                <li><strong>Project URL</strong>: <a href="https://movieflxbinge.netlify.app/" target="_blank">https://movieflxbinge.netlify.app/</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2>Overview</h2>
+              <p>Developed a movie search engine using React and various APIs.
+                The application features movie sliders, movie cards, trailer playback, 
+                and language filtering, providing a dynamic and 
+                user-friendly interface for exploring and watching films.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+            <p>
+                Designed and developed an e-commerce application focused on 
+                fetching API details, displaying products, and implementing
+                filtering based on price, rating, and categories. 
+                The application allows users to navigate to each product to see 
+                more images and view a product image gallery.
+            </p>
+          <h2>Key Contributions:</h2>
+          <p><b style="color : #000000">Fetching API Details : </b>   
+            Integrated APIs to fetch and display movie data,
+             including images, trailers, and details.
+          </p>
+          <p><b style="color : #000000">Home Page Design:</b>   
+            Created a home page with a carousel featuring movie
+             cards and sections like Top Movies and TV Shows.
+          </p>
+          <p><b style="color : #000000">Movie Slider: </b>   
+            Designed a dedicated slider on the movies page to showcase 
+            movies with smooth navigation.
+          </p>
+          <p><b style="color : #000000">Search Functionality:</b>   
+            Implemented a search feature to allow users 
+            to find movies easily.
+          </p>
+          <p><b style="color : #000000">Movie Details Page:</b>   
+            Developed a detailed view for each movie, 
+            including trailer playback and in-depth information.
+          </p>
+          <p><b style="color : #000000">Category Sections: </b>   
+          Added categories for Popular Movies, TV Shows, and Upcoming Movies, 
+          each with similar functionalities and filtering options.  
+          </p>
+        </div>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+          <h2>Technologies Utilized:</h2>
+          <p><b style="color : #000000">HTML/CSS:</b>
+            Employed front-end technologies to customize the website's
+            appearance and functionality, ensuring a seamless and visually 
+            appealing user experience across all devices.
+          </p>
+          <p><b style="color: #000000">Bootstrap:</b> 
+            Utilized Bootstrap to create a responsive design, 
+            ensuring that the application is accessible and visually 
+            appealing on a wide range of devices, including desktops, 
+            tablets, and smartphones.
+          </p>
+          <p><b style="color: #000000">React:</b> 
+            Implemented various functionalities using React, 
+            including fetching and displaying movie details from APIs. 
+            Designed a home page with sections for Top Movies and TV Shows, 
+            incorporating a carousel for featured content. Utilized React 
+            Router for seamless navigation, allowing users to view detailed 
+            information and trailers for each movie. Added search functionality 
+            and category filters for Popular Movies, TV Shows, and Upcoming Movies, 
+            enhancing the interactive and user-friendly experience.
+          </p>
+        </div>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <p><b style="color: #000000">Results:</b> 
+            Developed a movie search engine that effectively 
+            integrates core features of a modern entertainment platform. 
+            Implemented functionalities for detailed movie information, trailer 
+            playback, and category-based filtering, providing a rich and user-friendly 
+            experience. The application includes a dynamic home page with 
+            carousels, search functionality, and well-organized categories 
+            such as Popular Movies, TV Shows, and Upcoming Movies. 
+            The visually engaging design, intuitive navigation, and 
+            optimized performance significantly enhanced user interaction 
+            and satisfaction, leading to increased engagement and overall usability.
+        </p>    
+      </div>
+      </div>
+    </section>
+  </main>
+  <footer id="footer" class="footer position-relative">
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Uday Portfolio</strong> <span>All Rights Reserved</span></p>
+        </p>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="index.html">Uday Kumar</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
